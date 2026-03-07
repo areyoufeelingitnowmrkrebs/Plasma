@@ -1,5 +1,5 @@
 # Auracle
-Auracle is a wallpaper plugin for Plasma 6 that plays a very high quality "raining code" animation like the ones prominently featured in "The Matrix" and its sequels. It features every English letter in both upper and lowercase, almost every unicode character (larger ones have been prioritized over small ones), and a very large set of Katakana Japanese characters.
+Auracle is a wallpaper plugin for Plasma 6 that plays a very high quality "raining code" animation akin to the ones prominently featured in "The Matrix" and its sequels. It features every English letter in both upper and lowercase, almost every unicode character (larger ones have been prioritized over small ones), and a very large set of Katakana Japanese characters.
 
 Rather than traditional "hacker green," the drops shift 45 degrees around the color wheel every time they take one step down the grid. The colors are also shifted by the same amount along the X-axis, creating a vibrant, diagonal gradient across your screen. Lastly, the characters' falling speeds have moderate variation, with a small percentage of drops falling significantly faster than the rest of them.
 
