@@ -4,3 +4,5 @@ Auracle is a wallpaper plugin for Plasma 6 that plays a very high quality "raini
 Rather than traditional "hacker green," the drops shift 45 degrees around the color wheel every time they take one step down the grid. The colors are also shifted by the same amount along the X-axis, creating a vibrant, diagonal gradient across your screen. Lastly, the characters' falling speeds have moderate variation, with a small percentage of drops falling significantly faster than the rest of them.
 
 Aside from the color, I have gone to great lengths to make this as true to the movies as possible. If you have any suggestions, I would love to hear them.
+
+[Live demo (written in JavaScript)](https://areyoufeelingitnowmrkrebs.github.io)
