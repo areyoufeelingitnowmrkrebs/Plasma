@@ -2,7 +2,7 @@
 ## Depends
 Font with Katakana characters.
 
-**Recommended:** noto-fonts-cjk
+**Recommended:** Noto CJK
 ```
 sudo pacman -S noto-fonts-cjk
 ```
