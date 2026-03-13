@@ -15,13 +15,9 @@ PlasmoidItem {
         implicitHeight: Kirigami.Units.iconSizes.smallMedium
         Layout.minimumWidth: Kirigami.Units.iconSizes.smallMedium
         Layout.minimumHeight: Kirigami.Units.iconSizes.smallMedium
-        Image {
+        Kirigami.Icon {
             anchors.fill: parent
-            source: Qt.resolvedUrl("gmail.png")
-            fillMode: Image.PreserveAspectFit
-            smooth: true
-            mipmap: true
-            cache: true
+            source: "folder-mail"
         }
         MouseArea {
             anchors.fill: parent
@@ -52,7 +48,7 @@ PlasmoidItem {
             property var webNotification
             componentName: "plasma_workspace"
             eventId: "notification"
-            iconName: Qt.resolvedUrl("gmail.png")
+            iconName: "folder-mail"
             autoDelete: true
             actions: [
                 NotificationAction {

@@ -14,13 +14,9 @@ PlasmoidItem {
         implicitHeight: Kirigami.Units.iconSizes.smallMedium
         Layout.minimumWidth: Kirigami.Units.iconSizes.smallMedium
         Layout.minimumHeight: Kirigami.Units.iconSizes.smallMedium
-        Image {
+        Kirigami.Icon {
             anchors.fill: parent
-            source: Qt.resolvedUrl("music.png")
-            fillMode: Image.PreserveAspectFit
-            smooth: true
-            mipmap: true
-            cache: true
+            source: "folder-music"
         }
         MouseArea {
             anchors.fill: parent

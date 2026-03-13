@@ -4,7 +4,7 @@
         "Id": "io.github.areyoufeelingitnowmrkrebs.googlecalendar",
         "Name": "Google Calendar Clock",
         "Description": "Customizable digital clock that opens Google Calendar when clicked and sends event/reminder notifications to your desktop.",
-        "Icon": "/ui/calendar.png",
+        "Icon": "/ui/icon.png",
         "Category": "Date and Time",
         "License": "GPL-2.0+"
     },

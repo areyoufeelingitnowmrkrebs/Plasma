@@ -28,7 +28,7 @@ Window {
             property var webNotification
             componentName: "plasma_workspace"
             eventId: "notification"
-            iconName: Qt.resolvedUrl("calendar.png").toString().replace("file://", "")
+            iconName: view-calendar
             autoDelete: true
             actions: [
                 NotificationAction {
