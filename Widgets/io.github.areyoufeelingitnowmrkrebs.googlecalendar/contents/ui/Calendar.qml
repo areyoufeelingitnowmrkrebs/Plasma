@@ -28,7 +28,7 @@ Window {
             property var webNotification
             componentName: "plasma_workspace"
             eventId: "notification"
-            iconName: view-calendar
+            iconName: "mini-calendar"
             autoDelete: true
             actions: [
                 NotificationAction {
