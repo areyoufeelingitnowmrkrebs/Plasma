@@ -17,7 +17,7 @@ PlasmoidItem {
         Layout.minimumHeight: Kirigami.Units.iconSizes.smallMedium
         Kirigami.Icon {
             anchors.fill: parent
-            source: "folder-mail"
+            source: "applications-email-panel"
         }
         MouseArea {
             anchors.fill: parent
@@ -48,7 +48,7 @@ PlasmoidItem {
             property var webNotification
             componentName: "plasma_workspace"
             eventId: "notification"
-            iconName: "folder-mail"
+            iconName: "applications-email-panel"
             autoDelete: true
             actions: [
                 NotificationAction {
