@@ -16,7 +16,7 @@ PlasmoidItem {
         Layout.minimumHeight: Kirigami.Units.iconSizes.smallMedium
         Kirigami.Icon {
             anchors.fill: parent
-            source: "folder-music"
+            source: "youtube-music"
         }
         MouseArea {
             anchors.fill: parent
