@@ -17,7 +17,7 @@ PlasmoidItem {
         Layout.minimumHeight: Kirigami.Units.iconSizes.smallMedium
         Kirigami.Icon {
             anchors.fill: parent
-            source: "dialog-messages"
+            source: "android-messages-desktop-tray"
         }
         MouseArea {
             anchors.fill: parent
@@ -48,7 +48,7 @@ PlasmoidItem {
             property var webNotification
             componentName: "plasma_workspace"
             eventId: "notification"
-            iconName: "dialog-messages"
+            iconName: "android-messages-desktop-tray"
             autoDelete: true
             actions: [
                 NotificationAction {
