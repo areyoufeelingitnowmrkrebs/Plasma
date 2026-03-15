@@ -8,7 +8,7 @@ import org.kde.plasma.core as PlasmaCore
 import "../../../io.github.areyoufeelingitnowmrkrebs.googleaccount"
 PlasmoidItem {
     id: root
-    Plasmoid.status: PlasmaCore.Types.ActiveStatus
+    Plasmoid.status: webview.recentlyAudible ? PlasmaCore.Types.ActiveStatus : PlasmaCore.Types.PassiveStatus
     compactRepresentation: Item {
         implicitWidth: Kirigami.Units.iconSizes.smallMedium
         implicitHeight: Kirigami.Units.iconSizes.smallMedium
